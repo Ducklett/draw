@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <nav>
+    <form action="">
+      <select id="colorpicker">
+        <option value="black">Black</option>        
+        <option value="blue">Blue</option>
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="white">White</option>
+      </select>
+
+      <input type="range" id="size" min="1" max="51" step="5" value="1">
+    </form>
+  </nav>
+  <canvas>
+
+  </canvas>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      box-sizing: border-box;
+    }
+    nav {
+      height: 30px;
+      background: #fafafa;
+      border-bottom: 1px solid #3f3f3f;
+    }
+  </style>
+   <script src="socket.io.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
